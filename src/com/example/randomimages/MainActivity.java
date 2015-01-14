@@ -178,55 +178,55 @@ public class MainActivity extends Activity {
  //edit here with real image and sound locations.
  private void populatePool(int quantity) {
 	  poolOfImagesAndSounds = new ArrayList<ImageSoundItem>();
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Bear", "bear"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("bear", "bear"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Cat", "cat"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("cat", "cat"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Chicken", "chicken"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("chicken", "chicken"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Cougar", "cougar"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("cougar", "cougar"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Cow", "cow"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("cow", "cow"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Dog", "dog"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("dog", "dog"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Duck", "duck"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("duck", "duck"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Elephant", "elephant"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("elephant", "elephant"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Frog", "frog"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("frog", "frog"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Hyena", "hyena"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("hyena", "hyena"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Lion", "lion"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("lion", "lion"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Monkey", "monkey"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("monkey", "monkey"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Mosquito", "mosquito"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("mosquito", "mosquito"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Owl", "owl"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("owl", "owl"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Parrot", "parrot"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("parrot", "parrot"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Pig", "pig"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("pig", "pig"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Rhino", "rhino"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("rhino", "rhino"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Rooster", "rooster"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("rooster", "rooster"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Snake", "snake"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("snake", "snake"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Sheep", "sheep"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("sheep", "sheep"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Songbird", "bird"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("songbird", "bird"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Tiger", "tiger"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("tiger", "tiger"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Wolf", "wolf"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("wolf", "wolf"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Woodpecker", "woodpecker"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("woodpecker", "woodpecker"
 			  ));
-	  poolOfImagesAndSounds.add(new ImageSoundItem("Zebra", "zebra"
+	  poolOfImagesAndSounds.add(new ImageSoundItem("zebra", "zebra"
 			  ));
 
  }
