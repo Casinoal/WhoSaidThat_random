@@ -858,10 +858,11 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f070002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f080003;
+        public static final int abc_search_url_text_holo=0x7f080004;
         public static final int abc_search_url_text_normal=0x7f080000;
         public static final int abc_search_url_text_pressed=0x7f080002;
         public static final int abc_search_url_text_selected=0x7f080001;
+        public static final int black=0x7f080003;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1077,11 +1078,34 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int chick=0x7f020057;
-        public static final int cow=0x7f020058;
-        public static final int horse=0x7f020059;
-        public static final int ic_launcher=0x7f02005a;
-        public static final int pig=0x7f02005b;
+        public static final int bear=0x7f020057;
+        public static final int cat=0x7f020058;
+        public static final int chick=0x7f020059;
+        public static final int chicken=0x7f02005a;
+        public static final int cougar=0x7f02005b;
+        public static final int cow=0x7f02005c;
+        public static final int dog=0x7f02005d;
+        public static final int duck=0x7f02005e;
+        public static final int elephant=0x7f02005f;
+        public static final int frog=0x7f020060;
+        public static final int horse=0x7f020061;
+        public static final int hyena=0x7f020062;
+        public static final int ic_launcher=0x7f020063;
+        public static final int lion=0x7f020064;
+        public static final int monkey=0x7f020065;
+        public static final int mosquito=0x7f020066;
+        public static final int owl=0x7f020067;
+        public static final int parrot=0x7f020068;
+        public static final int pig=0x7f020069;
+        public static final int rhino=0x7f02006a;
+        public static final int rooster=0x7f02006b;
+        public static final int sheep=0x7f02006c;
+        public static final int snake=0x7f02006d;
+        public static final int songbird=0x7f02006e;
+        public static final int tiger=0x7f02006f;
+        public static final int wolf=0x7f020070;
+        public static final int woodpeker=0x7f020071;
+        public static final int zebra=0x7f020072;
     }
     public static final class id {
         public static final int action_bar=0x7f06001c;
@@ -1216,8 +1240,31 @@ containing a value of this type.
         public static final int animal2=0x7f050001;
         public static final int animal3=0x7f050002;
         public static final int animal4=0x7f050003;
-        public static final int notright=0x7f050004;
-        public static final int right=0x7f050005;
+        public static final int bear=0x7f050004;
+        public static final int bird=0x7f050005;
+        public static final int chimp=0x7f050006;
+        public static final int cougar=0x7f050007;
+        public static final int cow=0x7f050008;
+        public static final int duck=0x7f050009;
+        public static final int elephant=0x7f05000a;
+        public static final int frog=0x7f05000b;
+        public static final int horse=0x7f05000c;
+        public static final int hyena=0x7f05000d;
+        public static final int lion=0x7f05000e;
+        public static final int monkey=0x7f05000f;
+        public static final int mosquito=0x7f050010;
+        public static final int notright=0x7f050011;
+        public static final int owl=0x7f050012;
+        public static final int parrot=0x7f050013;
+        public static final int pig=0x7f050014;
+        public static final int rhino=0x7f050015;
+        public static final int right=0x7f050016;
+        public static final int rooster=0x7f050017;
+        public static final int sheep=0x7f050018;
+        public static final int snake1=0x7f050019;
+        public static final int tiger=0x7f05001a;
+        public static final int wolf=0x7f05001b;
+        public static final int woodpecker=0x7f05001c;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

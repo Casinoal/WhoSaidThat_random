@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Random;
 
 import android.app.Activity;
-import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,7 +17,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
- private static final int MAX_SIZE_OF_ALL_POOL = 8; //how many sounds in the game
+ private static final int MAX_SIZE_OF_ALL_POOL = 25; //how many sounds in the game
  final private int SIZE_OF_SCENE = 5; //how many to pull into the scene
 
  	MediaPlayer right;
@@ -179,26 +178,58 @@ public class MainActivity extends Activity {
  //edit here with real image and sound locations.
  private void populatePool(int quantity) {
 	  poolOfImagesAndSounds = new ArrayList<ImageSoundItem>();
-	poolOfImagesAndSounds.add(new ImageSoundItem("chick", "animal1"
-	     ));
-	poolOfImagesAndSounds.add(new ImageSoundItem("horse", "animal2"
-	     ));
-	poolOfImagesAndSounds.add(new ImageSoundItem("cow", "animal3"
-	     ));
-	poolOfImagesAndSounds.add(new ImageSoundItem("pig", "animal4"
-			));
-			poolOfImagesAndSounds.add(new ImageSoundItem("image e", "animal5"
-				     ));
-				poolOfImagesAndSounds.add(new ImageSoundItem("image f", "animal6"
-				     ));
-				poolOfImagesAndSounds.add(new ImageSoundItem("image g", "animal7"
-				     ));
-				poolOfImagesAndSounds.add(new ImageSoundItem("image h", "animal8"
-	     ));
-	
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Bear", "bear"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Cat", "cat"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Chicken", "chicken"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Cougar", "cougar"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Cow", "cow"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Dog", "dog"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Duck", "duck"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Elephant", "elephant"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Frog", "frog"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Hyena", "hyena"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Lion", "lion"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Monkey", "monkey"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Mosquito", "mosquito"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Owl", "owl"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Parrot", "parrot"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Pig", "pig"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Rhino", "rhino"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Rooster", "rooster"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Snake", "snake"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Sheep", "sheep"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Songbird", "bird"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Tiger", "tiger"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Wolf", "wolf"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Woodpecker", "woodpecker"
+			  ));
+	  poolOfImagesAndSounds.add(new ImageSoundItem("Zebra", "zebra"
+			  ));
+
  }
- 
- 
  
  //this will pull sound/image pairs from a resource XML file
  //poolOfImagesAndSounds.add(new ImageSoundItem(imageNameStringArray[i], soundNameStringArray[i]);
