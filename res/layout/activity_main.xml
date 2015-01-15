@@ -95,6 +95,14 @@
             android:textColor="@android:color/black" />
     </LinearLayout>
 
+<Button
+    android:id="@+id/reply"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:onClick="replay"
+    android:text="Replay Sound" />
+    
     <Button
         android:id="@+id/button1"
         android:layout_width="fill_parent"

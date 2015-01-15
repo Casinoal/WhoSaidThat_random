@@ -266,4 +266,12 @@ public class MainActivity extends Activity {
     + scenePool.get(indexOfSound).getSound());
   indexOfSound = random.nextInt(scenePool.size());
  }
+ 
+ private void replay() {
+	 listen = scenePool.get(indexOfSound).getSound();
+	 file = (this.getResources().getIdentifier(listen, "raw", this.getPackageName()));
+	who = MediaPlayer.create(this, file);
+	who.start();
+}
+ 
 }
