@@ -4,6 +4,6 @@
     <string name="app_name">RandomImages</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <color name="black">#000000</color>
+    <color name="black">#000000</color><string name="Greeting">Click on the animal who made that noise!</string>
 
 </resources>
